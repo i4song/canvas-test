@@ -1,8 +1,9 @@
 canvas {
 	z-index: 2;
+}
+body {
 	overflow: hidden;
 }
-
 html {
 	background-color: #000;
 }
