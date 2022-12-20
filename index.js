@@ -74,8 +74,9 @@ function updateSnowFall () {
 	ctx.clearRect(0,0,w,h);
 	drawSnowFlakes();
 	moveSnowFlakes();
+	requestAnimationFrame(updateSnowFall);
 }
 
-setInterval(updateSnowFall, 50);
+requestAnimationFrame(updateSnowFall);
 
 createSnowFlakes();
