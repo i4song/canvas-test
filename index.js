@@ -22,8 +22,8 @@ function createSnowFlakes() {
 			x: Math.random() * w,
 			y: Math.random() * h,
 			opacity: Math.random(),
-			speedX: random(-5, 5),
-			speedY: random(3, 8),
+			speedX: random(-1, 1),
+			speedY: random(0.5, 2),
 			radius: random(0.5, 4.2)
 		})
 	}
